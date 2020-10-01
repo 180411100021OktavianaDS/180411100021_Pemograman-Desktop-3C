@@ -1,0 +1,28 @@
+Tugas Latihan 
+Nama : Oktaviana Dwi S
+Nim : 180411100021
+a. buat program. deklarasi 5 variabel lakukan perhitungan rata-rata 5 nilai tsb tampilkan hasilnya
+Jawaban :
+code :
+    array = []
+    total = 0
+
+    n = int(input("Masukkan banyaknya jumlah nilai yang diinginkan: "))
+
+    for x in range(n):
+        nilai = float(input("Masukkan nilai ke-{} : ".format(x+1)))
+        array.append(nilai)
+
+    print("\nHasil nilai total adalah : {}".format(sum(array)))
+    print("Hasil rata-rata adalah : {}".format(sum(array)/n))
+    
+hasil:
+    Masukkan banyaknya jumlah nilai yang diinginkan: 5
+    Masukkan nilai ke-1 : 35
+    Masukkan nilai ke-2 : 44
+    Masukkan nilai ke-3 : 57
+    Masukkan nilai ke-4 : 66
+    Masukkan nilai ke-5 : 54
+
+    Hasil nilai total adalah : 256.0
+    Hasil rata-rata adalah : 51.2
